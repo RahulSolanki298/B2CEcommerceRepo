@@ -1,0 +1,5 @@
+﻿{
+  "DataConnectionString": "Data Source=103.235.105.167;Initial Catalog=dbB2CEcommerce;Integrated Security=False;Persist Security Info=False;User ID=rudraksh-db-admin;Password=w4Z?0ug62",
+  "DataProvider": "sqlserver",
+  "RawDataSettings": {}
+}
