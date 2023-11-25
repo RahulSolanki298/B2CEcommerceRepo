@@ -9,6 +9,12 @@
                 <a href="@Url.RouteUrl("Logout")" class="finish-impersonation" title="@T("Account.ImpersonatedAs.Finish.Hint")">@T("Account.ImpersonatedAs.Finish")</a>
             </div>
         }
+        @if (User.IsInRole("Vendor"))
+        {
+            @* <li class="nav-item"> *@
+                <a class="nav-link" asp-controller="Vendor" asp-action="Index">Vendor</a>
+            @* </li> *@
+        }
         @if (Model.DisplayAdminLink)
         {
             <a href="@Url.Content("~/Admin")" class="administration">@T("Account.Administration")</a>
